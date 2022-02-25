@@ -15,12 +15,8 @@ abbr tt 'echo abbr test is OK'
 abbr cli './clisample'
 abbr ii 'explorer.exe'
 abbr rmrf 'rm -rf '
-abbr gs 'git status '
 echo 'Done'
 
 set -x SPD_PATH /mnt/c/dev/ss/time_series_db
 set -x ASAN_OPTIONS detect_stack_use_after_return=1
-set PATH $PATH /usr/local/go/bin
-set PATH $PATH $HOME/.cargo/bin
-set PATH $PATH $HOME/bin
 #set -x LSAN_OPTIONS verbosity=1:log_threads=1
