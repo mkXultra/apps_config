@@ -49,7 +49,10 @@ function U
 
 # Ensure oh-my-posh is loaded
 Import-Module -Name oh-my-posh
-Set-Theme Paradox
+# v2
+# Set-Theme Paradox
+# v3
+Set-PoshPrompt -Theme Paradox
 
 #上/下矢印でコマンドを検索するのは本当に便利です。の
 #オプション「最後に移動」は、カーソルを最後に置きたい場合に便利です
