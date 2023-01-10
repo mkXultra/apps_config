@@ -23,4 +23,5 @@ set -x ASAN_OPTIONS detect_stack_use_after_return=1
 set PATH $PATH /usr/local/go/bin
 set PATH $PATH $HOME/.cargo/bin
 set PATH $PATH $HOME/bin
+set PATH $PATH $HOME/go/bin
 #set -x LSAN_OPTIONS verbosity=1:log_threads=1

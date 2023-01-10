@@ -1,4 +1,4 @@
 function kp
 {
-  ii "C:\Users\kansi\google_drive\dev\data\Database.kdbx"
+  ii "G:\マイドライブ\dev\data\Database.kdbx"
 }
